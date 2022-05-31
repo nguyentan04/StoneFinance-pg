@@ -25,3 +25,12 @@ Build for android and ios
 
 for web
 git clone https://github.com/nguyentan04/StoneFinance-pg web-pg
+d:
+cd D:\App\AppThinkManga\web
+git add .
+git commit -m "update"
+git push
+
+cd D:\App\AppThinkManga\web-pg
+git add .
+git commit -m "update"

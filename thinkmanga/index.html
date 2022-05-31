@@ -7,7 +7,7 @@
            //for android
            const ANDROID_OS = "Android";
            const ANDROID_APP_STORE= "https://play.google.com/store/apps/details?id=com.epi";
-           const ANDROID_DEEP_LINK="thinkmanga://127.0.0.1/thinkmanga/index.html?new=1";
+           const ANDROID_DEEP_LINK= "thinkmanga://nguyentan04.github.io/StoneFinance-pg/thinkmanga/index.html?new=1";
 
            //for ios
            const IOS_OS = "iOS";
@@ -18,6 +18,8 @@
 
            if (os == ANDROID_OS) {               
               setTimeout(function () { window.location = ANDROID_APP_STORE; }, 25);
+              window.location = ANDROID_DEEP_LINK;
+           } else {
               window.location = ANDROID_DEEP_LINK;
            }
 
