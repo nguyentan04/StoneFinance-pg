@@ -34,3 +34,4 @@ git push
 cd D:\App\AppThinkManga\web-pg
 git add .
 git commit -m "update"
+git push origin master 
